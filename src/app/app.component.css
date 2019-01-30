@@ -1,0 +1,57 @@
+h1{
+    color: #EE964B;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
+    margin: 0 !important;
+}
+
+.titleClass{
+    background-color: #1F271B;
+    min-width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    color: #EE964B;
+    font-size: 30px;
+}
+
+.card{
+    float: none;
+    margin: 2% auto;
+    margin-bottom: 10px;
+    background-color: #F4D35E;
+}
+.btn-danger{
+    margin: 20px; 
+    width: 135px;
+    height: 50px;
+    background-color: #EA3323;
+    font-family: 'Permanent Marker';
+}
+
+.btn-success{
+    margin: 20px;
+    width: 135px;
+    height: 50px;
+    background-color: #28AFB0;
+    font-family: 'Permanent Marker';
+}
+
+p{
+    font-family: 'Secular One', sans-serif;
+    color: #0D3B66;
+    font-size: 20px;
+}
+
+h5{
+    color: #051A2D; 
+    font-family: 'Permanent Marker';
+    font-size: 35px;
+    font-display: bold;
+}
+
+
+  
