@@ -15,10 +15,17 @@
     <h6 class="card-subtitle mb-2 text-muted">{{beers?.data.style.category.name}}</h6>
     <p class="card-text">{{beers?.data.style.description}}</p>
     <button type="button" class="btn btn-danger" (click)="getBeers1()">Next Beer</button>
-    <button type="button" class="btn btn-success">Save</button>
+    <button type="button" class="btn btn-success" (click)="saveBeer()">Save</button>
   </div>
  </div>
 
- <div class="footer">
-    <p>Footer "API"</p>
+ <p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+    aria-controls="collapseExample">
+    List of saved Beers
+  </a>
+<!--<div class="collapse" id="collapseExample">-->
+  <div class="card card-body"
+    ngFor="savedBeer of saveBeers">
+      {{savedBeer}}
   </div>
