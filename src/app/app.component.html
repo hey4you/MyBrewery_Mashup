@@ -16,6 +16,9 @@
     <p class="card-text">{{beers?.data.style.description}}</p>
     <button type="button" class="btn btn-danger" (click)="getBeers1()">Next Beer</button>
     <button type="button" class="btn btn-success" (click)="saveBeer()">Save</button>
+    <span
+    ng-repeat="savedBeer of savedBeers" style="background-color: black">
+      {{savedBeer}}</span>
   </div>
  </div>
 
@@ -25,7 +28,4 @@
     List of saved Beers
   </a>
 <!--<div class="collapse" id="collapseExample">-->
-  <div class="card card-body"
-    ngFor="savedBeer of saveBeers">
-      {{savedBeer}}
-  </div>
+  

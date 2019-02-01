@@ -53,5 +53,8 @@ h5{
     font-display: bold;
 }
 
-
+.card-body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
   

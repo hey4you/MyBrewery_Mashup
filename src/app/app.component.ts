@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'MyBrewery';
 
   public beers: any;
-  public savedBeers: string[];
+  public savedBeers: string[] = ["A", "B"];
 
   constructor(private _BeerAPIService: BeerAPIService) {}
 
@@ -28,7 +28,7 @@ export class AppComponent {
 
   }
   saveBeer() {
-    this.savedBeers.push("A");
+    this.savedBeers.push(this.beers.data.name);
     console.log(this.savedBeers);
   }
   
