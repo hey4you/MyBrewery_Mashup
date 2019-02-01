@@ -11,7 +11,7 @@ export class AppComponent {
   title = 'MyBrewery';
 
   public beers: any;
-  public savedBeers: string[] = ["A", "B"];
+  public savedBeers: string[] = [];
 
   constructor(private _BeerAPIService: BeerAPIService) {}
 
