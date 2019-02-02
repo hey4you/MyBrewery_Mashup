@@ -19,9 +19,12 @@
   </div>
  </div>
 
-<tr *ngFor="let savedBeer of savedBeers">
-  {{savedBeer}}
-</tr>
+ <p>Saved Beers:</p>
+  <ul>
+    <li *ngFor="let savedBeer of savedBeers">
+      <p class="beerlist"> {{ savedBeer }}</p>
+    </li>
+  </ul>
 
  <!--<p>
   <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"

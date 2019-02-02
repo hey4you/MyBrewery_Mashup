@@ -9,10 +9,9 @@ import { Observable } from 'rxjs/'; //RX mab
 })
 export class AppComponent {
   title = 'MyBrewery';
-
-  public beers: any;
-  public savedBeers: string[] = [];
-
+  savedBeers: string[] = [];
+  beers: any;
+  
   constructor(private _BeerAPIService: BeerAPIService) {}
 
   ngOnInit() {
